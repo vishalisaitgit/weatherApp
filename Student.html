@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+    </header>
+    <div class="container">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td>Roll Number</td>
+                <td><input type="text" name="roll" id="roll"></td>
+            </tr>
+            <tr>
+                <td>Reg Number</td>
+                <td><input type="text" name="reg" id="reg"></td>
+            </tr>
+            <tr>
+                <td>Branch</td>
+                <td><select name="branch" id="branch">
+                        <option selected>CSE</option>
+                        <option>CSE</option>
+                        <option>IT</option>
+                        <option>MECH</option>
+                        <option>EEE</option>
+                        <option>ECE</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Semester</td>
+                <td><input type="radio" name="Semester" id="sem1">sem1
+                    <input type="radio" name="Semester" id="sem2">sem2
+                    <input type="radio" name="Semester" id="sem3">sem3
+                    <input type="radio" name="Semester" id="sem4">sem4
+                </td>
+                <td><input type="radio" name="Semester" id="sem5">sem5
+                    <input type="radio" name="Semester" id="sem6">sem6
+                    <input type="radio" name="Semester" id="sem7">sem7
+                    <input type="radio" name="Semester" id="sem8">sem8
+                </td>
+            </tr>
+            <tr>
+                <td>Subjects</td>
+                <td><input type="checkbox" name="gt" id="gt">Graph theory</td>
+                <td><input type="checkbox" name="gis" id="gt">Geo Envi Sys</td>
+            </tr>
+        </table>
+        <button onclick="validate()">Submit</button>
+    </div>
+</body>
+
+</html>
